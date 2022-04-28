@@ -1,0 +1,136 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Approver ReferBack Functionality",
+    "children" : [ {
+      "name" : "Approve New Requisition functionality",
+      "uid" : "e1eb86aa06a599b4",
+      "parentUid" : "804b75c34a9fc87346359f1283a471ac",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645037002603,
+        "stop" : 1645037361540,
+        "duration" : 358937
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "804b75c34a9fc87346359f1283a471ac"
+  }, {
+    "name" : "Initiator Actions",
+    "children" : [ {
+      "name" : "Login to SR QA Website",
+      "uid" : "4607160cb4947257",
+      "parentUid" : "7d70069ed18458a1585c4c4386eb9f5b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645037592230,
+        "stop" : 1645037603372,
+        "duration" : 11142
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Create New Requisition functionality",
+      "uid" : "700e16ed99553752",
+      "parentUid" : "7d70069ed18458a1585c4c4386eb9f5b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645037603506,
+        "stop" : 1645037724316,
+        "duration" : 120810
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Close Requisition functionality",
+      "uid" : "f857e4b6f9856a98",
+      "parentUid" : "7d70069ed18458a1585c4c4386eb9f5b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645037724349,
+        "stop" : 1645037975258,
+        "duration" : 250909
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Drop Vacancy of a Requisition functionality",
+      "uid" : "475e96825c3e174c",
+      "parentUid" : "7d70069ed18458a1585c4c4386eb9f5b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645037975442,
+        "stop" : 1645038028355,
+        "duration" : 52913
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Edit Update Requisition functionality",
+      "uid" : "100d8f6f3a151323",
+      "parentUid" : "7d70069ed18458a1585c4c4386eb9f5b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645038028625,
+        "stop" : 1645038125285,
+        "duration" : 96660
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "7d70069ed18458a1585c4c4386eb9f5b"
+  }, {
+    "name" : "Login Functionality",
+    "children" : [ {
+      "name" : "Login to SR QA Website",
+      "uid" : "2fb0af561da5b430",
+      "parentUid" : "a9c8f11b4c0d702164a4731c0b55ffa0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645038394460,
+        "stop" : 1645038404937,
+        "duration" : 10477
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "a9c8f11b4c0d702164a4731c0b55ffa0"
+  } ]
+}

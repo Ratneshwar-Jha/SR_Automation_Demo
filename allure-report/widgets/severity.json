@@ -1,0 +1,71 @@
+[ {
+  "uid" : "475e96825c3e174c",
+  "name" : "Drop Vacancy of a Requisition functionality",
+  "time" : {
+    "start" : 1645037975442,
+    "stop" : 1645038028355,
+    "duration" : 52913
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f857e4b6f9856a98",
+  "name" : "Close Requisition functionality",
+  "time" : {
+    "start" : 1645037724349,
+    "stop" : 1645037975258,
+    "duration" : 250909
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "100d8f6f3a151323",
+  "name" : "Edit Update Requisition functionality",
+  "time" : {
+    "start" : 1645038028625,
+    "stop" : 1645038125285,
+    "duration" : 96660
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2fb0af561da5b430",
+  "name" : "Login to SR QA Website",
+  "time" : {
+    "start" : 1645038394460,
+    "stop" : 1645038404937,
+    "duration" : 10477
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "700e16ed99553752",
+  "name" : "Create New Requisition functionality",
+  "time" : {
+    "start" : 1645037603506,
+    "stop" : 1645037724316,
+    "duration" : 120810
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e1eb86aa06a599b4",
+  "name" : "Approve New Requisition functionality",
+  "time" : {
+    "start" : 1645037002603,
+    "stop" : 1645037361540,
+    "duration" : 358937
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4607160cb4947257",
+  "name" : "Login to SR QA Website",
+  "time" : {
+    "start" : 1645037592230,
+    "stop" : 1645037603372,
+    "duration" : 11142
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

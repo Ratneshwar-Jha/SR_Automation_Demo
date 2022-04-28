@@ -1,0 +1,15 @@
+{
+  "pageLoadTimeout": 120000,
+  "defaultCommandTimeout": 50000,
+  "requestTimeout": 35000,
+  "testFiles": "**/*.{feature,features}",
+  "reporter": "cypress-mochawesome-reporter",
+  "reporterOptions": {
+    "reportDir": "cypress/report",
+    "charts": true,
+    "reportPageTitle": "custom-title",
+    "overwrite": false,
+    "autoOpen": true
+  },
+  "projectId": "wkur2a"
+}

@@ -1,0 +1,3450 @@
+{
+  "uid" : "700e16ed99553752",
+  "name" : "Create New Requisition functionality",
+  "fullName" : "Create New Requisition functionality",
+  "historyId" : "795565f23c372ea0fdc188c3bd7eede5",
+  "time" : {
+    "start" : 1645037603506,
+    "stop" : 1645037724316,
+    "duration" : 120810
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "\"before each\" hook",
+      "time" : {
+        "start" : 1645037603506,
+        "stop" : 1645037603656,
+        "duration" : 150
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "fixture (\"example\")",
+        "time" : {
+          "start" : 1645037603655,
+          "stop" : 1645037603655,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "\"before each\" hook",
+      "time" : {
+        "start" : 1645037603656,
+        "stop" : 1645037603657,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Given Login as SR user.",
+      "time" : {
+        "start" : 1645037603664,
+        "stop" : 1645037610352,
+        "duration" : 6688
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "login (\"https://qa1.myhcl.com/smartrecruit_CBT\"; \"40162201\"; \"123\")",
+        "time" : {
+          "start" : 1645037603667
+        },
+        "status" : "unknown",
+        "steps" : [ {
+          "name" : "visit https://qa1.myhcl.com/smartrecruit_CBT",
+          "time" : {
+            "start" : 1645037603668,
+            "stop" : 1645037605926,
+            "duration" : 2258
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "get #EmployeeCode",
+          "time" : {
+            "start" : 1645037605926,
+            "stop" : 1645037605940,
+            "duration" : 14
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "type 40162201",
+          "time" : {
+            "start" : 1645037605940,
+            "stop" : 1645037606820,
+            "duration" : 880
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "get #Password",
+          "time" : {
+            "start" : 1645037606820,
+            "stop" : 1645037606833,
+            "duration" : 13
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "type 123",
+          "time" : {
+            "start" : 1645037606833,
+            "stop" : 1645037607040,
+            "duration" : 207
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "get #EmployeeCode",
+          "time" : {
+            "start" : 1645037607040,
+            "stop" : 1645037607051,
+            "duration" : 11
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "click",
+          "time" : {
+            "start" : 1645037607051,
+            "stop" : 1645037607177,
+            "duration" : 126
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "get #SubmitButton",
+          "time" : {
+            "start" : 1645037607177,
+            "stop" : 1645037607188,
+            "duration" : 11
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "click",
+          "time" : {
+            "start" : 1645037607188,
+            "stop" : 1645037607299,
+            "duration" : 111
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "form sub --submitting form--",
+          "time" : {
+            "start" : 1645037607299,
+            "stop" : 1645037607299,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "page load --waiting for new page to load--",
+          "time" : {
+            "start" : 1645037607299,
+            "stop" : 1645037607299,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : true,
+        "stepsCount" : 11,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 12,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "When I input required details of Requisition and click on Submit button.",
+      "time" : {
+        "start" : 1645037610352,
+        "stop" : 1645037711660,
+        "duration" : 101308
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "xpath //a[text()='Initiator Actions']",
+        "time" : {
+          "start" : 1645037610365,
+          "stop" : 1645037610368,
+          "duration" : 3
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "click",
+        "time" : {
+          "start" : 1645037610368,
+          "stop" : 1645037611046,
+          "duration" : 678
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "POST /SmartRecruit_CBT/Home//ManageRequisition_Json",
+        "time" : {
+          "start" : 1645037611044,
+          "stop" : 1645037611044,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "POST /SmartRecruit_CBT/Home//ApproversRecentTransactions",
+        "time" : {
+          "start" : 1645037611045,
+          "stop" : 1645037611045,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "xpath //a[text()='Create New Requisition']",
+        "time" : {
+          "start" : 1645037611046,
+          "stop" : 1645037611050,
+          "duration" : 4
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "click",
+        "time" : {
+          "start" : 1645037611050,
+          "stop" : 1645037611170,
+          "duration" : 120
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "page load --waiting for new page to load--",
+        "time" : {
+          "start" : 1645037611170,
+          "stop" : 1645037611170,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "SelectProjectListBoxValue (\"projects\"; \"Awaiting Billing -S IT SOLUTIONS AT SPAR (E/180062)\")",
+        "time" : {
+          "start" : 1645037611170
+        },
+        "status" : "unknown",
+        "steps" : [ {
+          "name" : "xpath //div[@id='projects']/span[1]/input[2]",
+          "time" : {
+            "start" : 1645037618339,
+            "stop" : 1645037618343,
+            "duration" : 4
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "xpath //div[@id='projects']/i[1]",
+          "time" : {
+            "start" : 1645037618346,
+            "stop" : 1645037618350,
+            "duration" : 4
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "xpath //div[@id='projects']/span[1]/input[2]",
+          "time" : {
+            "start" : 1645037618350,
+            "stop" : 1645037618354,
+            "duration" : 4
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "type Awaiting Billing -S IT SOLUTIONS AT SPAR (E/180062)",
+          "time" : {
+            "start" : 1645037618354,
+            "stop" : 1645037623734,
+            "duration" : 5380
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "xpath //div[@id='projects']/span[1]/div/div/div",
+          "time" : {
+            "start" : 1645037623734,
+            "stop" : 1645037623779,
+            "duration" : 45
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "xpath //div[@id='projects']/span[1]/div/div/div",
+          "time" : {
+            "start" : 1645037623781,
+            "stop" : 1645037623785,
+            "duration" : 4
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "click",
+          "time" : {
+            "start" : 1645037623785,
+            "stop" : 1645037623987,
+            "duration" : 202
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "GET https://qa1.myhcl.com/SimplifySR_WebAPI/api/Gateway/ProcessAction?uri=ProjectsCustomernLobs&_LoginEmpCode=40162201&_ProjectCode=E/180062",
+          "time" : {
+            "start" : 1645037623985,
+            "stop" : 1645037623985,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "GET https://qa1.myhcl.com/SimplifySR_WebAPI/api/Gateway/ProcessAction?uri=Country&BulkHiringVoice=false&EntityID=1&ProgramCode=&_ProjectCode=E/180062",
+          "time" : {
+            "start" : 1645037623986,
+            "stop" : 1645037623986,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "GET https://qa1.myhcl.com/SimplifySR_WebAPI/api/Gateway/ProcessAction?uri=GetProjectExpiration&_ProjectCode=E/180062",
+          "time" : {
+            "start" : 1645037623986,
+            "stop" : 1645037623986,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "GET /SimplifySR_WebAPI/api/Gateway/ProcessAction?uri=ProjectsCustomernLobs&_LoginEmpCode=40162201&_ProjectCode=E%2F180062",
+          "time" : {
+            "start" : 1645037623987,
+            "stop" : 1645037623987,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "GET /SimplifySR_WebAPI/api/Gateway/ProcessAction?uri=Country&BulkHiringVoice=false&EntityID=1&ProgramCode=&_ProjectCode=E%2F180062",
+          "time" : {
+            "start" : 1645037623987,
+            "stop" : 1645037623987,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : true,
+        "stepsCount" : 12,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "SelectRequestType (\"New\"; \"New\")",
+        "time" : {
+          "start" : 1645037623987
+        },
+        "status" : "unknown",
+        "steps" : [ {
+          "name" : "xpath //input[@placeholder='--Select Requisition Type--']",
+          "time" : {
+            "start" : 1645037623988,
+            "stop" : 1645037623993,
+            "duration" : 5
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "xpath //input[@placeholder='--Select Requisition Type--']",
+          "time" : {
+            "start" : 1645037623995,
+            "stop" : 1645037623998,
+            "duration" : 3
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "click",
+          "time" : {
+            "start" : 1645037623998,
+            "stop" : 1645037624173,
+            "duration" : 175
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "GET 200 /SimplifySR_WebAPI/api/Gateway/ProcessAction?uri=GetProjectExpiration&_ProjectCode=E%2F180062",
+          "time" : {
+            "start" : 1645037624173,
+            "stop" : 1645037624819,
+            "duration" : 646
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "GET https://qa1.myhcl.com/SimplifySR_WebAPI/api/Gateway/ProcessAction?uri=RequisitiontypenSource&LobCategory=1&_ProjectCode=E/180062",
+          "time" : {
+            "start" : 1645037624818,
+            "stop" : 1645037624818,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "GET /SimplifySR_WebAPI/api/Gateway/ProcessAction?uri=RequisitiontypenSource&LobCategory=1&_ProjectCode=E%2F180062",
+          "time" : {
+            "start" : 1645037624818,
+            "stop" : 1645037624818,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "GET https://qa1.myhcl.com/SimplifySR/Requisition/GetBatchYear",
+          "time" : {
+            "start" : 1645037624818,
+            "stop" : 1645037624818,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "xpath //a[contains(@class,'firstChild') and contains(text(),'New')]",
+          "time" : {
+            "start" : 1645037624818,
+            "stop" : 1645037624818,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "xpath //a[contains(@class,'firstChild') and contains(text(),'New')]",
+          "time" : {
+            "start" : 1645037624820,
+            "stop" : 1645037624824,
+            "duration" : 4
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "trigger mouseover, {force: true}",
+          "time" : {
+            "start" : 1645037624827,
+            "stop" : 1645037624838,
+            "duration" : 11
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "xpath //a[@class='ng-binding' and contains(text(),'New')]",
+          "time" : {
+            "start" : 1645037624838,
+            "stop" : 1645037624842,
+            "duration" : 4
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "xpath //a[@class='ng-binding' and contains(text(),'New')]",
+          "time" : {
+            "start" : 1645037624844,
+            "stop" : 1645037624847,
+            "duration" : 3
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "click {force: true}",
+          "time" : {
+            "start" : 1645037624847,
+            "stop" : 1645037624966,
+            "duration" : 119
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "GET https://qa1.myhcl.com/SimplifySR_WebAPI/api/Gateway/ProcessAction?uri=EmployeeGroup",
+          "time" : {
+            "start" : 1645037624965,
+            "stop" : 1645037624965,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "GET https://qa1.myhcl.com/SimplifySR_WebAPI/api/Gateway/ProcessAction?uri=Company&EntityID=1&ProgramCode=&_CountryCode=40&_ProjectCode=E/180062",
+          "time" : {
+            "start" : 1645037624966,
+            "stop" : 1645037624966,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "new url https://qa1.myhcl.com/SimplifySR/Requisition/LeanRequisition#",
+          "time" : {
+            "start" : 1645037624966,
+            "stop" : 1645037624966,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : true,
+        "stepsCount" : 16,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "SelectSkill (\"mysql\")",
+        "time" : {
+          "start" : 1645037624966
+        },
+        "status" : "unknown",
+        "steps" : [ {
+          "name" : "xpath //div[@id='txtaddskill']",
+          "time" : {
+            "start" : 1645037624968,
+            "stop" : 1645037624972,
+            "duration" : 4
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "click",
+          "time" : {
+            "start" : 1645037624972,
+            "stop" : 1645037625702,
+            "duration" : 730
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "GET /SimplifySR_WebAPI/api/Gateway/ProcessAction?uri=Company&EntityID=1&ProgramCode=&_CountryCode=40&_ProjectCode=E%2F180062",
+          "time" : {
+            "start" : 1645037625701,
+            "stop" : 1645037625701,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "xpath //input[@id='txtERSskill']",
+          "time" : {
+            "start" : 1645037625702,
+            "stop" : 1645037625705,
+            "duration" : 3
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "type mysql",
+          "time" : {
+            "start" : 1645037625705,
+            "stop" : 1645037626557,
+            "duration" : 852
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "GET https://qa1.myhcl.com/SimplifySR_WebAPI/api/Gateway/ProcessAction?uri=PSA&_CompanyCode=1000&_CountryCode=40&_Initiator=40162201&_ProjectCode=Awaiting+Billing+-S+IT+SOLUTIONS+AT+SPAR+(E/180062)",
+          "time" : {
+            "start" : 1645037626556,
+            "stop" : 1645037626556,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "GET /SimplifySR_WebAPI/api/Gateway/ProcessAction?uri=PSA&_CompanyCode=1000&_CountryCode=40&_Initiator=40162201&_ProjectCode=Awaiting+Billing+-S+IT+SOLUTIONS+AT+SPAR+(E%2F180062)",
+          "time" : {
+            "start" : 1645037626557,
+            "stop" : 1645037626557,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "GET /SimplifySR/Requisition//SearchSkill?Skill=mysql",
+          "time" : {
+            "start" : 1645037626557,
+            "stop" : 1645037627418,
+            "duration" : 861
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "xpath //input[@id='txtERSskill']/following::div[1]/div[1]/div[1]",
+          "time" : {
+            "start" : 1645037627418,
+            "stop" : 1645037627418,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "click",
+          "time" : {
+            "start" : 1645037627419,
+            "stop" : 1645037627608,
+            "duration" : 189
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "GET /SimplifySR/Requisition/GetERSSkillMaster?Skill=54162192",
+          "time" : {
+            "start" : 1645037627608,
+            "stop" : 1645037627608,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "xpath //i[@class='icon-add addIcon openNextCol']",
+          "time" : {
+            "start" : 1645037627608,
+            "stop" : 1645037627901,
+            "duration" : 293
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "click",
+          "time" : {
+            "start" : 1645037627901,
+            "stop" : 1645037628104,
+            "duration" : 203
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "GET /SimplifySR/Requisition//GetSubSkillMaster?SkillCode=54162192",
+          "time" : {
+            "start" : 1645037628104,
+            "stop" : 1645037628104,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "xpath //input[contains(@id,'primary')]/ancestor::td[1]",
+          "time" : {
+            "start" : 1645037628104,
+            "stop" : 1645037628578,
+            "duration" : 474
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "click",
+          "time" : {
+            "start" : 1645037628578,
+            "stop" : 1645037628850,
+            "duration" : 272
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "xpath //button[@onclick='SubmitERSSkill()']",
+          "time" : {
+            "start" : 1645037628850,
+            "stop" : 1645037628853,
+            "duration" : 3
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "click",
+          "time" : {
+            "start" : 1645037628853,
+            "stop" : 1645037629602,
+            "duration" : 749
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "GET /SimplifySR/Requisition/Getmode2SkillsBundle",
+          "time" : {
+            "start" : 1645037629602,
+            "stop" : 1645037629602,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : true,
+        "stepsCount" : 19,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "SelectJob (\"53011269\")",
+        "time" : {
+          "start" : 1645037629602
+        },
+        "status" : "unknown",
+        "steps" : [ {
+          "name" : "xpath //i[@class = 'icon-filter prefix jobFilter' or contains(@class, 'icon-filter prefix jobFilter')]",
+          "time" : {
+            "start" : 1645037629603,
+            "stop" : 1645037629616,
+            "duration" : 13
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "click",
+          "time" : {
+            "start" : 1645037629616,
+            "stop" : 1645037629865,
+            "duration" : 249
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "xpath //input[@id='txtJob']",
+          "time" : {
+            "start" : 1645037629865,
+            "stop" : 1645037629868,
+            "duration" : 3
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "type 53011269",
+          "time" : {
+            "start" : 1645037629868,
+            "stop" : 1645037630415,
+            "duration" : 547
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "GET /SimplifySR/Requisition//GetJob?L0Code=52600404&Job=53011269",
+          "time" : {
+            "start" : 1645037630415,
+            "stop" : 1645037634318,
+            "duration" : 3903
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "xpath //input[@id='txtJob']/following::div[1]/div[1]/div[1]",
+          "time" : {
+            "start" : 1645037634318,
+            "stop" : 1645037634318,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "click",
+          "time" : {
+            "start" : 1645037634318,
+            "stop" : 1645037634498,
+            "duration" : 180
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "xpath //ul[@class='jobListUL']",
+          "time" : {
+            "start" : 1645037634499,
+            "stop" : 1645037634502,
+            "duration" : 3
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "click",
+          "time" : {
+            "start" : 1645037634502,
+            "stop" : 1645037634687,
+            "duration" : 185
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "xpath //button[@class='btn primary-button updatejob']",
+          "time" : {
+            "start" : 1645037634687,
+            "stop" : 1645037634690,
+            "duration" : 3
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "click",
+          "time" : {
+            "start" : 1645037634690,
+            "stop" : 1645037634881,
+            "duration" : 191
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : true,
+        "stepsCount" : 11,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "xpath //select[@id='empG']",
+        "time" : {
+          "start" : 1645037634881,
+          "stop" : 1645037634884,
+          "duration" : 3
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "select {force: true}",
+        "time" : {
+          "start" : 1645037634885,
+          "stop" : 1645037635055,
+          "duration" : 170
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "GET https://qa1.myhcl.com/SimplifySR_WebAPI/api/Gateway/ProcessAction?uri=Bands&_EmployeeGroup=1&_IsCampus=false&_JobId=53011269&_ProgramType=",
+        "time" : {
+          "start" : 1645037635055,
+          "stop" : 1645037635055,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "xpath //select[@id='BandId']",
+        "time" : {
+          "start" : 1645037635056,
+          "stop" : 1645037635059,
+          "duration" : 3
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "select {force: true}",
+        "time" : {
+          "start" : 1645037635059,
+          "stop" : 1645037635606,
+          "duration" : 547
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "GET https://qa1.myhcl.com/SimplifySR_WebAPI/api/Gateway/ProcessAction?uri=SubBands&_BandId=E1&_JobId=53011269&_L0_code=52600404",
+        "time" : {
+          "start" : 1645037635603,
+          "stop" : 1645037635603,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "xpath //select[@id='subbandid']",
+        "time" : {
+          "start" : 1645037635606,
+          "stop" : 1645037635609,
+          "duration" : 3
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "select {force: true}",
+        "time" : {
+          "start" : 1645037635610,
+          "stop" : 1645037636199,
+          "duration" : 589
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "GET https://qa1.myhcl.com/SimplifySR_WebAPI/api/Gateway/ProcessAction?uri=GetFresherType&Country=40&LobCode=52600404&empgroup=1&isonsite=0",
+        "time" : {
+          "start" : 1645037636199,
+          "stop" : 1645037636199,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "xpath //select[@id='country']",
+        "time" : {
+          "start" : 1645037636199,
+          "stop" : 1645037636202,
+          "duration" : 3
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "select {force: true}",
+        "time" : {
+          "start" : 1645037636203,
+          "stop" : 1645037636373,
+          "duration" : 170
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "GET https://qa1.myhcl.com/SimplifySR_WebAPI/api/Gateway/ProcessAction?uri=Company&EntityID=1&ProgramCode=&_CountryCode=40&_ProjectCode=E/180062",
+        "time" : {
+          "start" : 1645037636373,
+          "stop" : 1645037636373,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "GET https://qa1.myhcl.com/SimplifySR_WebAPI/api/Gateway/ProcessAction?uri=GetFresherType&Country=40&LobCode=52600404&empgroup=1&isonsite=0",
+        "time" : {
+          "start" : 1645037636373,
+          "stop" : 1645037636373,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "xpath //select[@id='ddlCompanyCode']",
+        "time" : {
+          "start" : 1645037636373,
+          "stop" : 1645037636376,
+          "duration" : 3
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "select {force: true}",
+        "time" : {
+          "start" : 1645037636376,
+          "stop" : 1645037636647,
+          "duration" : 271
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "GET /SimplifySR_WebAPI/api/Gateway/ProcessAction?uri=Company&EntityID=1&ProgramCode=&_CountryCode=40&_ProjectCode=E%2F180062",
+        "time" : {
+          "start" : 1645037636646,
+          "stop" : 1645037636646,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "GET https://qa1.myhcl.com/SimplifySR_WebAPI/api/Gateway/ProcessAction?uri=PSA&_CompanyCode=1000&_CountryCode=40&_Initiator=40162201&_ProjectCode=Awaiting+Billing+-S+IT+SOLUTIONS+AT+SPAR+(E/180062)",
+        "time" : {
+          "start" : 1645037636647,
+          "stop" : 1645037636647,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "GET https://qa1.myhcl.com/SimplifySR_WebAPI/api/Gateway/ProcessAction?uri=GetFresherType&Country=40&LobCode=52600404&empgroup=1&isonsite=0",
+        "time" : {
+          "start" : 1645037636647,
+          "stop" : 1645037636647,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "xpath //select[@id='PersonalSubAreaID']",
+        "time" : {
+          "start" : 1645037636647,
+          "stop" : 1645037636650,
+          "duration" : 3
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "select {force: true}",
+        "time" : {
+          "start" : 1645037636650,
+          "stop" : 1645037636822,
+          "duration" : 172
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "xpath //select[@id='SecondaryPersonalSubAreaID']",
+        "time" : {
+          "start" : 1645037636822,
+          "stop" : 1645037636826,
+          "duration" : 4
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "select {force: true}",
+        "time" : {
+          "start" : 1645037636827,
+          "stop" : 1645037636987,
+          "duration" : 160
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "xpath //input[@id='VacancyCount']",
+        "time" : {
+          "start" : 1645037636988,
+          "stop" : 1645037636991,
+          "duration" : 3
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "type 5",
+        "time" : {
+          "start" : 1645037636991,
+          "stop" : 1645037637516,
+          "duration" : 525
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "GET /SimplifySR_WebAPI/api/Gateway/ProcessAction?uri=PSA&_CompanyCode=1000&_CountryCode=40&_Initiator=40162201&_ProjectCode=Awaiting+Billing+-S+IT+SOLUTIONS+AT+SPAR+(E%2F180062)",
+        "time" : {
+          "start" : 1645037637516,
+          "stop" : 1645037637516,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "GET https://qa1.myhcl.com/SimplifySR_WebAPI/api/Gateway/ProcessAction?uri=PSA&_CompanyCode=1000&_CountryCode=40&_Initiator=40162201&_ProjectCode=Awaiting+Billing+-S+IT+SOLUTIONS+AT+SPAR+(E/180062)",
+        "time" : {
+          "start" : 1645037637516,
+          "stop" : 1645037637516,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "xpath //input[@id='HirePanIndiaNo']",
+        "time" : {
+          "start" : 1645037637516,
+          "stop" : 1645037637521,
+          "duration" : 5
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "click {force: true}",
+        "time" : {
+          "start" : 1645037637521,
+          "stop" : 1645037637611,
+          "duration" : 90
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "GET /SimplifySR_WebAPI/api/Gateway/ProcessAction?uri=PSA&_CompanyCode=1000&_CountryCode=40&_Initiator=40162201&_ProjectCode=Awaiting+Billing+-S+IT+SOLUTIONS+AT+SPAR+(E%2F180062)",
+        "time" : {
+          "start" : 1645037637610,
+          "stop" : 1645037637610,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "get #File",
+        "time" : {
+          "start" : 1645037637611,
+          "stop" : 1645037637616,
+          "duration" : 5
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "selectFile cypress\\fixtures\\Doc.txt",
+        "time" : {
+          "start" : 1645037637616,
+          "stop" : 1645037638027,
+          "duration" : 411
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "xpath //button[@id='SaveAsDraft']",
+        "time" : {
+          "start" : 1645037638027,
+          "stop" : 1645037638030,
+          "duration" : 3
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "click",
+        "time" : {
+          "start" : 1645037638030,
+          "stop" : 1645037640248,
+          "duration" : 2218
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "confirm Are you sure you want to save the requisition?",
+        "time" : {
+          "start" : 1645037640246,
+          "stop" : 1645037640246,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "GET 200 /SimplifySR/Requisition/ValidateAttitionSAPCode?RequisitionsSourceId=4&Initiator=40162201",
+        "time" : {
+          "start" : 1645037640246,
+          "stop" : 1645037640246,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "POST https://qa1.myhcl.com/SimplifySR/Requisition/SaveLeanViewData",
+        "time" : {
+          "start" : 1645037640247,
+          "stop" : 1645037640247,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "POST https://qa1.myhcl.com/SimplifySR/Requisition/UploadFiles",
+        "time" : {
+          "start" : 1645037640247,
+          "stop" : 1645037640247,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "page load --waiting for new page to load--",
+        "time" : {
+          "start" : 1645037640247,
+          "stop" : 1645037640247,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "new url https://qa1.myhcl.com/SimplifySR/Requisition/ExternalRequisition?_PRFID=sKucjpWeb1Q%3d&active=Mg==",
+        "time" : {
+          "start" : 1645037640248,
+          "stop" : 1645037644577,
+          "duration" : 4329
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "GET https://qa1.myhcl.com/SimplifySR/Requisition/GetPRFDependentData?_PRFID=3064090",
+        "time" : {
+          "start" : 1645037644577,
+          "stop" : 1645037644577,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "xpath //select[@id='ddlExperience']",
+        "time" : {
+          "start" : 1645037644577,
+          "stop" : 1645037644577,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "select {force: true}",
+        "time" : {
+          "start" : 1645037644577,
+          "stop" : 1645037645969,
+          "duration" : 1392
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "GET https://qa1.myhcl.com/SimplifySR_WebAPI/api/Gateway/ProcessAction?uri=Qualification&_ProjectCode=E/180062&_SRID=3064090&_bufferSRnumber=0&_isERS=false",
+        "time" : {
+          "start" : 1645037645965,
+          "stop" : 1645037645965,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "GET 200 /SimplifySR_WebAPI/api/Gateway/ProcessAction?uri=Experience&_BandID=53011269&_IsCampus=False&_ProgramCode=",
+        "time" : {
+          "start" : 1645037645965,
+          "stop" : 1645037645965,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "GET /SimplifySR_WebAPI/api/Gateway/ProcessAction?uri=Designation&_BandId=E1&_EntityID=1&_IsHCLSoftware_Designation=False&_SubBandId=E1.1",
+        "time" : {
+          "start" : 1645037645965,
+          "stop" : 1645037645965,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "GET https://qa1.myhcl.com/SimplifySR_WebAPI/api/Gateway/ProcessAction?uri=JoiningL1&_CompanyCode=1000&_CountryCode=40&_EntityID=1&_IsCAS=1&_LoginEmpCode=40162201&_PRFID=3064090&_ProjectCode=E/180062&_ReferBackFrom=&_RequisitionsourceID=4&_isERS=false",
+        "time" : {
+          "start" : 1645037645966,
+          "stop" : 1645037645966,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "GET /SimplifySR_WebAPI/api/Gateway/ProcessAction?uri=GetState&_CountryCode=40",
+        "time" : {
+          "start" : 1645037645966,
+          "stop" : 1645037645966,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "GET /SimplifySR_WebAPI/api/Gateway/ProcessAction?uri=GetCity&Countryid=40&_StateID=",
+        "time" : {
+          "start" : 1645037645966,
+          "stop" : 1645037645966,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "GET https://qa1.myhcl.com/SimplifySR_WebAPI/api/Gateway/ProcessAction?uri=PersonalArea&_CompanyCode=1000&_CountryCode=40&_EntityID=1&_Initiator=40162201&_PSACode=10E1&_ProjectCode=E/180062",
+        "time" : {
+          "start" : 1645037645967,
+          "stop" : 1645037645967,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "GET https://qa1.myhcl.com/SimplifySR_WebAPI/api/Gateway/ProcessAction?uri=PersonalArea&_CompanyCode=1000&_CountryCode=40&_EntityID=1&_Initiator=40162201&_PSACode=10E2&_ProjectCode=E/180062",
+        "time" : {
+          "start" : 1645037645967,
+          "stop" : 1645037645967,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "GET https://qa1.myhcl.com/SimplifySR_WebAPI/api/Gateway/ProcessAction?uri=JoiningLocation&EntityID=1&Initiator=40162201&_CompanyCode=1000&_CountryCode=40&_PSACode=10E1&_ProjectCode=E/180062",
+        "time" : {
+          "start" : 1645037645968,
+          "stop" : 1645037645968,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "GET https://qa1.myhcl.com/SimplifySR_WebAPI/api/Gateway/ProcessAction?uri=JoiningLocation&EntityID=1&Initiator=40162201&_CompanyCode=1000&_CountryCode=40&_PSACode=10E2&_ProjectCode=E/180062",
+        "time" : {
+          "start" : 1645037645968,
+          "stop" : 1645037645968,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "GET /SimplifySR_WebAPI/api/Gateway/ProcessAction?uri=Qualification&_ProjectCode=E%2F180062&_SRID=3064090&_bufferSRnumber=0&_isERS=false",
+        "time" : {
+          "start" : 1645037645968,
+          "stop" : 1645037645968,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "GET /SimplifySR_WebAPI/api/Gateway/ProcessAction?uri=JoiningL1&_CompanyCode=1000&_CountryCode=40&_EntityID=1&_IsCAS=1&_LoginEmpCode=40162201&_PRFID=3064090&_ProjectCode=E%2F180062&_ReferBackFrom=&_RequisitionsourceID=4&_isERS=false",
+        "time" : {
+          "start" : 1645037645968,
+          "stop" : 1645037645968,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "GET /SimplifySR_WebAPI/api/Gateway/ProcessAction?uri=PersonalArea&_CompanyCode=1000&_CountryCode=40&_EntityID=1&_Initiator=40162201&_PSACode=10E1&_ProjectCode=E%2F180062",
+        "time" : {
+          "start" : 1645037645968,
+          "stop" : 1645037645968,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "GET /SimplifySR_WebAPI/api/Gateway/ProcessAction?uri=PersonalArea&_CompanyCode=1000&_CountryCode=40&_EntityID=1&_Initiator=40162201&_PSACode=10E2&_ProjectCode=E%2F180062",
+        "time" : {
+          "start" : 1645037645968,
+          "stop" : 1645037645968,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "GET /SimplifySR_WebAPI/api/Gateway/ProcessAction?uri=JoiningLocation&EntityID=1&Initiator=40162201&_CompanyCode=1000&_CountryCode=40&_PSACode=10E1&_ProjectCode=E%2F180062",
+        "time" : {
+          "start" : 1645037645969,
+          "stop" : 1645037645969,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "xpath //select[@id='ddlQualification']",
+        "time" : {
+          "start" : 1645037645969,
+          "stop" : 1645037645972,
+          "duration" : 3
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "select {force: true}",
+        "time" : {
+          "start" : 1645037645972,
+          "stop" : 1645037647413,
+          "duration" : 1441
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "GET /SimplifySR_WebAPI/api/Gateway/ProcessAction?uri=JoiningLocation&EntityID=1&Initiator=40162201&_CompanyCode=1000&_CountryCode=40&_PSACode=10E2&_ProjectCode=E%2F180062",
+        "time" : {
+          "start" : 1645037647412,
+          "stop" : 1645037647412,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "GET https://qa1.myhcl.com/SimplifySR_WebAPI/api/Gateway/ProcessAction?uri=JoiningL4&_CountryCode=40&_IsSalesLob=0&_JoiningL1Code=52600404&_PRFID=3064090&_ProjectCode=E/180062&_isERS=false",
+        "time" : {
+          "start" : 1645037647413,
+          "stop" : 1645037647413,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "GET /SimplifySR_WebAPI/api/Gateway/ProcessAction?uri=JoiningL4&_CountryCode=40&_IsSalesLob=0&_JoiningL1Code=52600404&_PRFID=3064090&_ProjectCode=E%2F180062&_isERS=false",
+        "time" : {
+          "start" : 1645037647413,
+          "stop" : 1645037647413,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "xpath //textarea[@id='TxtjobDesription']",
+        "time" : {
+          "start" : 1645037647413,
+          "stop" : 1645037647417,
+          "duration" : 4
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "clear",
+        "time" : {
+          "start" : 1645037647417,
+          "stop" : 1645037648447,
+          "duration" : 1030
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "type AutoTest",
+        "time" : {
+          "start" : 1645037648447,
+          "stop" : 1645037649185,
+          "duration" : 738
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "xpath //select[@id='ddlDesignationCode']",
+        "time" : {
+          "start" : 1645037649185,
+          "stop" : 1645037649260,
+          "duration" : 75
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "select {force: true}",
+        "time" : {
+          "start" : 1645037649260,
+          "stop" : 1645037649412,
+          "duration" : 152
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "xpath //select[@id='ddlPA']",
+        "time" : {
+          "start" : 1645037649412,
+          "stop" : 1645037649415,
+          "duration" : 3
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "select {force: true}",
+        "time" : {
+          "start" : 1645037649416,
+          "stop" : 1645037649552,
+          "duration" : 136
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "xpath //select[@id='ddlSecondaryPA']",
+        "time" : {
+          "start" : 1645037649552,
+          "stop" : 1645037649556,
+          "duration" : 4
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "select {force: true}",
+        "time" : {
+          "start" : 1645037649556,
+          "stop" : 1645037649686,
+          "duration" : 130
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "xpath //select[@id='ddlJoiningLocation']",
+        "time" : {
+          "start" : 1645037649686,
+          "stop" : 1645037649689,
+          "duration" : 3
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "select {force: true}",
+        "time" : {
+          "start" : 1645037649689,
+          "stop" : 1645037649840,
+          "duration" : 151
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "xpath //select[@id='ddlState']",
+        "time" : {
+          "start" : 1645037649840,
+          "stop" : 1645037649843,
+          "duration" : 3
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "select {force: true}",
+        "time" : {
+          "start" : 1645037649843,
+          "stop" : 1645037649997,
+          "duration" : 154
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "GET https://qa1.myhcl.com/SimplifySR_WebAPI/api/Gateway/ProcessAction?uri=GetCity&Countryid=40&_StateID=100000",
+        "time" : {
+          "start" : 1645037649997,
+          "stop" : 1645037649997,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "xpath //select[@id='ddlCity']",
+        "time" : {
+          "start" : 1645037649997,
+          "stop" : 1645037650001,
+          "duration" : 4
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "select {force: true}",
+        "time" : {
+          "start" : 1645037650001,
+          "stop" : 1645037650687,
+          "duration" : 686
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "xpath //input[@id='TPno']",
+        "time" : {
+          "start" : 1645037650687,
+          "stop" : 1645037650690,
+          "duration" : 3
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "click {force: true}",
+        "time" : {
+          "start" : 1645037650690,
+          "stop" : 1645037650788,
+          "duration" : 98
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "get #SaveAsDraft",
+        "time" : {
+          "start" : 1645037650788,
+          "stop" : 1645037650794,
+          "duration" : 6
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "click",
+        "time" : {
+          "start" : 1645037650794,
+          "stop" : 1645037651505,
+          "duration" : 711
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "confirm Are you sure you want to save the requisition?",
+        "time" : {
+          "start" : 1645037651505,
+          "stop" : 1645037651505,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "POST /SimplifySR/Requisition/SaveExternalViewData",
+        "time" : {
+          "start" : 1645037651505,
+          "stop" : 1645037651505,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "page load --page loaded--",
+        "time" : {
+          "start" : 1645037651505,
+          "stop" : 1645037658941,
+          "duration" : 7436
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "new url https://qa1.myhcl.com/SimplifySR/Requisition/GetInterviewerApprover?_PRFID=sKucjpWeb1Q%3d&active=Mw==",
+        "time" : {
+          "start" : 1645037658940,
+          "stop" : 1645037658940,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "GET 200 /SimplifySR_WebAPI/api/Gateway/ProcessAction?uri=ReportingManager&_LoginEmpCode=40162201",
+        "time" : {
+          "start" : 1645037658940,
+          "stop" : 1645037658940,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "GET 200 /SimplifySR_WebAPI/api/Gateway/ProcessAction?uri=Billtype",
+        "time" : {
+          "start" : 1645037658940,
+          "stop" : 1645037658940,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "GET 200 /SimplifySR_WebAPI/api/Gateway/ProcessAction?uri=BSDReason",
+        "time" : {
+          "start" : 1645037658941,
+          "stop" : 1645037658941,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "xpath //select[@id='BillingTypeID']",
+        "time" : {
+          "start" : 1645037658941,
+          "stop" : 1645037658941,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "select {force: true}",
+        "time" : {
+          "start" : 1645037658941,
+          "stop" : 1645037659092,
+          "duration" : 151
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "xpath //input[@id='OnBoardingDate']",
+        "time" : {
+          "start" : 1645037659092,
+          "stop" : 1645037659096,
+          "duration" : 4
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "click",
+        "time" : {
+          "start" : 1645037659096,
+          "stop" : 1645037659703,
+          "duration" : 607
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "get :nth-child(5) > :nth-child(6)",
+        "time" : {
+          "start" : 1645037659703,
+          "stop" : 1645037659711,
+          "duration" : 8
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "click",
+        "time" : {
+          "start" : 1645037659711,
+          "stop" : 1645037659922,
+          "duration" : 211
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "get #interviewerid1TP1",
+        "time" : {
+          "start" : 1645037659922,
+          "stop" : 1645037659932,
+          "duration" : 10
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "type KEDARNATH BHARADWAJ (40104187)",
+        "time" : {
+          "start" : 1645037659932,
+          "stop" : 1645037660917,
+          "duration" : 985
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "get #interviewerid2TP1",
+        "time" : {
+          "start" : 1645037660917,
+          "stop" : 1645037660925,
+          "duration" : 8
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "type Saravanan Rangamannar (40103492)",
+        "time" : {
+          "start" : 1645037660925,
+          "stop" : 1645037662056,
+          "duration" : 1131
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "GET https://qa1.myhcl.com/SimplifySR/Requisition/GetEmployeeDetailsByNameAndSapCode?_EmployeeCode=KEDARNATH BHARADWAJ (40104187)&_Type=&_Projectcode=",
+        "time" : {
+          "start" : 1645037662056,
+          "stop" : 1645037662056,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "GET 200 /SimplifySR/Requisition/GetEmployeeDetailsByNameAndSapCode?_EmployeeCode=KEDARNATH%20BHARADWAJ%20(40104187)&_Type=&_Projectcode=",
+        "time" : {
+          "start" : 1645037662056,
+          "stop" : 1645037662056,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "get #SaveSubmit",
+        "time" : {
+          "start" : 1645037662056,
+          "stop" : 1645037662064,
+          "duration" : 8
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "click",
+        "time" : {
+          "start" : 1645037662064,
+          "stop" : 1645037665987,
+          "duration" : 3923
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "POST 200 /SimplifySR/Requisition/GetTP_RM",
+        "time" : {
+          "start" : 1645037665986,
+          "stop" : 1645037665986,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "GET https://qa1.myhcl.com/SimplifySR/Requisition/ValidateInterViewer?inter1= KEDARNATH BHARADWAJ (40104187)&&inter2=Saravanan Rangamannar (40103492)&&inter11=&&inter22=&&_SR=3064090&&Billingtype=2&&onboardingdate=27-May-2022&&LinearWorkflow=False&&HeadcountValidationWorkflow=True",
+        "time" : {
+          "start" : 1645037665986,
+          "stop" : 1645037665986,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "GET 200 /SimplifySR/Requisition/CheckDuplicateSRS?_PrfID=3064090",
+        "time" : {
+          "start" : 1645037665986,
+          "stop" : 1645037665986,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "GET https://qa1.myhcl.com/SimplifySR/Requisition/GetEmployeeDetailsByNameAndSapCode?_EmployeeCode=Saravanan Rangamannar (40103492)&_Type=&_Projectcode=",
+        "time" : {
+          "start" : 1645037665987,
+          "stop" : 1645037665987,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "GET 200 /SimplifySR/Requisition/ValidateInterViewer?inter1=%20KEDARNATH%20BHARADWAJ%20(40104187)&&inter2=Saravanan%20Rangamannar%20(40103492)&&inter11=&&inter22=&&_SR=3064090&&Billingtype=2&&onboardingdate=27-May-2022&&LinearWorkflow=False&&HeadcountValidationWorkflow=True",
+        "time" : {
+          "start" : 1645037665987,
+          "stop" : 1645037665987,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "GET /SimplifySR/Requisition/GetEmployeeDetailsByNameAndSapCode?_EmployeeCode=Saravanan%20Rangamannar%20(40103492)&_Type=&_Projectcode=",
+        "time" : {
+          "start" : 1645037665987,
+          "stop" : 1645037666450,
+          "duration" : 463
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "xpath //div[@class='sweet-alert  showSweetAlert visible']//h2[1]",
+        "time" : {
+          "start" : 1645037666450,
+          "stop" : 1645037666450,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "get .confirm",
+        "time" : {
+          "start" : 1645037666451,
+          "stop" : 1645037666457,
+          "duration" : 6
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "click",
+        "time" : {
+          "start" : 1645037666457,
+          "stop" : 1645037666607,
+          "duration" : 150
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "POST https://qa1.myhcl.com/SimplifySR/Requisition/SaveJobInterviewerApprover",
+        "time" : {
+          "start" : 1645037666607,
+          "stop" : 1645037666607,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "wait 45000",
+        "time" : {
+          "start" : 1645037666608,
+          "stop" : 1645037711614,
+          "duration" : 45006
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "POST 200 /SimplifySR/Home/EncriptFeedbackData",
+        "time" : {
+          "start" : 1645037711613,
+          "stop" : 1645037711613,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "page load --page loaded--",
+        "time" : {
+          "start" : 1645037711613,
+          "stop" : 1645037711613,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "alert Requisition has been submitted successfully - APPS/APPS/2022/3064090",
+        "time" : {
+          "start" : 1645037711613,
+          "stop" : 1645037711613,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "assert expected **Requisition has been submitted successfully - APPS/APPS/2022/3064090** to include **Requisition has been submitted successfully**",
+        "time" : {
+          "start" : 1645037711613,
+          "stop" : 1645037711614,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "actual",
+          "value" : "Requisition has been submitted successfully - APPS/APPS/2022/3064090"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "new url https://qa1.myhcl.com/SmartRecruit_CBT/Home/DashBoard",
+        "time" : {
+          "start" : 1645037711614,
+          "stop" : 1645037711614,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "POST 200 /SmartRecruit_CBT/Home//ManageRequisition_Json",
+        "time" : {
+          "start" : 1645037711614,
+          "stop" : 1645037711614,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "POST 200 /SmartRecruit_CBT/Home//ApproversRecentTransactions",
+        "time" : {
+          "start" : 1645037711614,
+          "stop" : 1645037711614,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 190,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Then system should create new requisition.",
+      "time" : {
+        "start" : 1645037711660,
+        "stop" : 1645037724314,
+        "duration" : 12654
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "xpath //a[text()='Initiator Actions']",
+        "time" : {
+          "start" : 1645037711662,
+          "stop" : 1645037711666,
+          "duration" : 4
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "click",
+        "time" : {
+          "start" : 1645037711666,
+          "stop" : 1645037711788,
+          "duration" : 122
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "xpath //a[text()='Manage Requisitions']",
+        "time" : {
+          "start" : 1645037711788,
+          "stop" : 1645037711792,
+          "duration" : 4
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "click",
+        "time" : {
+          "start" : 1645037711792,
+          "stop" : 1645037711918,
+          "duration" : 126
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "page load --waiting for new page to load--",
+        "time" : {
+          "start" : 1645037711917,
+          "stop" : 1645037711917,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "new url https://qa1.myhcl.com/SmartRecruit_CBT/Home/ManageRequisitions",
+        "time" : {
+          "start" : 1645037711918,
+          "stop" : 1645037713785,
+          "duration" : 1867
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "get input#ReqNo",
+        "time" : {
+          "start" : 1645037713785,
+          "stop" : 1645037713785,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "type 3064090",
+        "time" : {
+          "start" : 1645037713785,
+          "stop" : 1645037714624,
+          "duration" : 839
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "POST /SmartRecruit_CBT/Home//ManageRequisition_Json",
+        "time" : {
+          "start" : 1645037714624,
+          "stop" : 1645037714624,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "get input#SearchReq",
+        "time" : {
+          "start" : 1645037714624,
+          "stop" : 1645037714652,
+          "duration" : 28
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "click",
+        "time" : {
+          "start" : 1645037714652,
+          "stop" : 1645037714785,
+          "duration" : 133
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "page load --waiting for new page to load--",
+        "time" : {
+          "start" : 1645037714785,
+          "stop" : 1645037714785,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "new url https://qa1.myhcl.com/SmartRecruit_CBT/Home/ManageRequisitions?dateFrom=&dateTo=&Status=null&IsFromCopyLob=null&ReqNo=3064090",
+        "time" : {
+          "start" : 1645037714785,
+          "stop" : 1645037724288,
+          "duration" : 9503
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "get #viewReq",
+        "time" : {
+          "start" : 1645037724288,
+          "stop" : 1645037724288,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "POST /SmartRecruit_CBT/Home//ManageRequisition_Json?dateFrom=&dateTo=&Status=null&IsFromCopyLob=null&ReqNo=3064090",
+        "time" : {
+          "start" : 1645037724288,
+          "stop" : 1645037724288,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "get #viewReq",
+        "time" : {
+          "start" : 1645037724291,
+          "stop" : 1645037724303,
+          "duration" : 12
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "assert expected **'3064090'** to equal **'3064090'**",
+        "time" : {
+          "start" : 1645037724309,
+          "stop" : 1645037724309,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "actual",
+          "value" : "3064090"
+        }, {
+          "name" : "expected",
+          "value" : "3064090"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 17,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "\"after each\" hook",
+      "time" : {
+        "start" : 1645037724324,
+        "stop" : 1645037724329,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "d58bebe49272a0cb",
+      "name" : "video recording",
+      "source" : "d58bebe49272a0cb.mp4",
+      "type" : "video/mp4",
+      "size" : 29503864
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 226,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Initiator Actions"
+  }, {
+    "name" : "feature",
+    "value" : "Initiator Actions"
+  }, {
+    "name" : "tag",
+    "value" : "CreateNewRequisition"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "CreateNewRequisition" ]
+  },
+  "source" : "700e16ed99553752.json",
+  "parameterValues" : [ ]
+}
